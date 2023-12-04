@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffbb68, #ff58ab);
+}
+
 .headerLogin {
   display: flex;
   align-items: center;
@@ -28,6 +37,7 @@
 .logoLogin {
   width: 125px;
   height: 125px;
+  filter: drop-shadow(0 0 0.75rem white);
 }
 
 .mainLogin {
